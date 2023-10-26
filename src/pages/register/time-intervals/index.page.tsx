@@ -131,7 +131,7 @@ export default function TimeIntervals() {
           ))}
         </IntervalsContainer>
 
-        {errors.intervals && (
+        {errors.intervals?.root && (
           <FormError size="sm">{errors.intervals.root.message}</FormError>
         )}
 
